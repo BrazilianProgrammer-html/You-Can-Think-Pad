@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You Can Think Pad</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @font-face {
+            font-family: 'Comic Sans MS';
+            src: local('Comic Sans MS');
+        }
+        body {
+            font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+            background-color: #000;
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .low-poly-shadow {
+            box-shadow: inset -4px -4px 0px 0px rgba(0,0,0,0.3), 
+                        inset 4px 4px 0px 0px rgba(255,255,255,0.2);
+        }
+        .screen-inner-shadow {
+            box-shadow: inset 4px 4px 8px rgba(0,0,0,0.5);
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/"
+  }
+}
+</script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
